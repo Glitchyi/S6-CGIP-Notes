@@ -1,0 +1,23 @@
+.callout[data-callout="snail"] {
+    --callout-color: 139, 207, 247;
+    --callout-icon: snail;
+}
+
+.callout[data-callout="flask"] {
+    --callout-color: 255, 114, 71;
+    --callout-icon: flask-round;
+}
+.callout[data-callout="def"] {
+    --callout-color: 255, 163, 51;
+    --callout-icon: book;
+}
+.callout[data-callout="imp"] {
+    --callout-color: 188, 247, 25;
+    --callout-icon: sun-moon;
+}
+.callout[data-callout="imp"]  > .callout-title  {
+    color: #6DBB16;
+}
+.callout[data-callout="imp"] > .callout-title > .callout-icon  svg{
+    stroke: #6DBB16;
+}

@@ -1,0 +1,17 @@
+{
+  "accentColor": "#00c2a2",
+  "cssTheme": "",
+  "theme": "obsidian",
+  "interfaceFontFamily": "Product Sans",
+  "textFontFamily": "Product Sans",
+  "monospaceFontFamily": "Product Sans",
+  "baseFontSize": 14,
+  "translucency": true,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "index",
+    "print",
+    "callouts"
+  ],
+  "showViewHeader": false
+}

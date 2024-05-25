@@ -1,0 +1,17 @@
+{
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Images",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 85
+  },
+  "showInlineTitle": true,
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "newLinkFormat": "absolute",
+  "defaultViewMode": "preview"
+}

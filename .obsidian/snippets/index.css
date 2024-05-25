@@ -1,0 +1,6 @@
+body{
+    --workspace-background-translucent: rgba(0, 150, 155, 0.123);
+    --background-primary: #001218;
+    --titlebar-background: rgba(0, 66, 68, 0.178);
+    --titlebar-background-focused: rgba(0, 66, 68, 0.178);
+}
