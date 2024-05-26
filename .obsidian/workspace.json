@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8e5882613ffc1039",
+        "id": "1d6486c623973557",
         "type": "tabs",
         "children": [
           {
-            "id": "e2c2f0ca2267e299",
+            "id": "7ef729c6ac8d755b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modules/Module 5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0f3a78623934d9db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modules/Module 5.md",
+                "file": "Modules/Module 4.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#comp",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5,
-    "collapsed": true
+    "width": 384.5
   },
   "right": {
     "id": "a09c00f9f0cbd105",
@@ -107,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modules/Module 5.md",
+                "file": "Modules/Module 4.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -124,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modules/Module 5.md",
+                "file": "Modules/Module 4.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modules/Module 5.md"
+                "file": "Modules/Module 4.md"
               }
             }
           }
@@ -156,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5,
-    "collapsed": true
+    "width": 324.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,14 +154,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e858822437176a0c",
+  "active": "7ef729c6ac8d755b",
   "lastOpenFiles": [
-    "Modules/Module 4.md",
     "Modules/Module 5.md",
+    "Modules/Module 4.md",
+    "Images/Pasted image 20240526174753.png",
+    "Images/Pasted image 20240526173927.png",
+    "Images/Pasted image 20240526120602.png",
+    "Images/Pasted image 20240526173707.png",
+    "Module 4.pdf",
+    "Images/Pasted image 20240526112037.png",
+    "Modules/Module 1.md",
+    "Module 5.pdf",
+    "output 1.md",
+    "output 1.pdf",
+    "output.md",
+    "output.pdf",
     "Images/Pasted image 20240524214240.png",
     "Images/Pasted image 20240524214356.png",
     "Images/Pasted image 20240524214301.png",
-    "Module 5.pdf",
     "CGIP.md",
     "Modules/Module 3.md",
     "Topics/Backtracking.md",
@@ -199,23 +195,12 @@
     "Algorithm Anaylysis.md",
     "Topics/Dyn[]()amic Programming.md",
     "Modules.md",
-    "Single Sheets/Architectures.md",
     "Images/Pasted image 20240115162748.png",
-    "Images/Pasted image 20240115162621.png",
-    "Images/Pasted image 20240115162415.png",
-    "Images/Pasted image 20240115162326.png",
-    "Images/Pasted image 20240115162248.png",
-    "Images/Pasted image 20240115162215.png",
-    "Modules/Module 2.md",
-    "Modules/Resue.md",
     "Classroom/CN-Module-V (1) (1).pdf",
     "Classroom/CN-Module-III.pdf",
     "Classroom/Encoding.pdf",
     "Classroom/mso6758.tmp",
     "Classroom/mso6266.tmp",
-    "Classroom/mso61D8.tmp",
-    "Classroom/msoDCD8.tmp",
-    "Classroom/CN-Module-IV .pdf",
     "Untitled.canvas"
   ]
 }

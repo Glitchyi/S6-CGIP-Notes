@@ -94,7 +94,7 @@ The log transformation are processes of applying a log function to the input pix
 
 **Log Transformation**
 By applying the transformation which can be represented as:
-$$ S = c*log(r+1 )$$
+$$ S = c \cdot log(r+1 )$$
 
  > [!bug] Points To Note
 >
@@ -141,7 +141,7 @@ window.renderPlotly(this.container, data, layout, config)
 
 **Inverse Log Transformation**
 This is the inverse of the normal log function here, the higher input pixel value, lower output pixel value and as a result a **low contrast output image** is produced.
-$$ S = c * log^{-1}(r+1 )$$
+$$ S = c \cdot log^{-1}(r+1 )$$
 
 ```dataviewjs
 let path = app.vault.adapter.basePath;//absolute path to your vault
@@ -184,7 +184,7 @@ window.renderPlotly(this.container, data, layout, config)
 A technique used in computer graphics to enhance the contrast of an image by applying a non-linear transformation to the pixel values.
 
 The transformation is represented as:
-$$ S = c * r^\gamma $$
+$$ S = c \cdot r^\gamma $$
 
 > [!bug] Points To Note
 >
