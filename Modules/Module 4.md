@@ -273,10 +273,30 @@ We define all the points in ( $R_u$ ) as the foreground and all the points in $(
 These are functions of displacement.
 - Correlation: the process of moving a filter mask over the image and computing the sum of products at each location.
 - Convolution: the same process as correlation, except that the filter is first rotated by 180 degrees.
-
-
-
+For example a filter could be:
+$$\begin{bmatrix}w_1,w_2,w_3\end{bmatrix}$$
+Correlation and convolution with images with a filter of size m $\cdot$ n, we pad the image with a minimum of m-1 rows of 0s at the top and the bottom, and n-1 columns of 0s on the left and right. 
 >[!note] If the filter mask is symmetric, correlation and convolution yield the same result.
 >
 
-Correlation and convolution with images with a filter of size m $\cdot$ n, we pad the image with a minimum of m-1 rows of 0s at the top and the bottom, and n-1 columns of 0s on the left and right. 
+>[!prob]
+>Consider the filter:    $\begin{bmatrix}1,2,3\end{bmatrix}$
+This can then be applied on a image say:   $\begin{bmatrix}0,1,0,0,1,1,0\end{bmatrix}$
+>
+>We initially pad the matrix to make it work properly with the filter       $\begin{bmatrix}0,0,1,0,0,1,1,0,0\end{bmatrix}$
+>Now we start applying the filter like:
+>
+>$\begin{bmatrix}0,0,1,0,0,1,1,0,0\end{bmatrix}$
+>$\begin{bmatrix}1,2,3\end{bmatrix}$
+>
+>We perform the operations $0*1 + 2*0+3*0$ and the save the value at the position of the first element in the image
+> 
+> Next the filter is shifted to the right by one element and the operations are repeated
+>$\begin{bmatrix}0,0,1,0,0,1,1,0,0\end{bmatrix}$
+>⠀$\begin{bmatrix}1,2,3\end{bmatrix}$
+>...
+>After all the operations are complete we get the result as:
+>
+>- **Convolution Output:**  $\begin{bmatrix}1 , 2 , 3 , 1 , 3 , 5 , 3 , 1 , 2 , 3 , 1 , 3 , 5 , 3\end{bmatrix}$
+>- **Correlation Output:**  $\begin{bmatrix}3 , 2 , 1 , 3 , 5 , 3 , 1 , 3 , 2 , 1 , 3 , 5 , 3 , 1\end{bmatrix}$
+

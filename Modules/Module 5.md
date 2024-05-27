@@ -633,8 +633,6 @@ Here the function converts the output pixels to either $a,b$  or $c$ depending o
 >- **Variable/ Local thresholding**: T changes over an image. T at a point (x,y) is a function of the neighborhood of (x,y)
 >- **Dynamic / Adaptic thresholding**: T changes over an image. T at any point(x,y) is a function of spatial coordinate (x,y)
 
-
-
 #### Region Growing Technique
 In the case of the Region growing method, we start with some pixel as the seed pixel
 and then check the adjacent pixels.
@@ -642,8 +640,6 @@ If the adjacent pixels abide by the predefined rules, then that pixel is added t
 region of the seed pixel and the following process continues till there is no similarity
 left. This method follows the bottom-up approach.
 In case of a region growing, the preferred rule can be set as a threshold.
-
-
 #### Region Splitting and Merging Technique
 In Region splitting, the whole image is first taken as a single region. If the region does not follow the predefined rules, then it is further divided into multiple regions (usually 4 quadrants) and then the predefined rules are carried out on those regions in order to decide whether to further subdivide or to classify that as a region. The following process continues till there is no further division of regions required i.e every region follows the predefined rules. In Region merging technique, we consider every pixel as an individual region. We select a region as the seed region to check if adjacent regions are similarly based on predefined rules. If they are similar, we merge them into a single region and move ahead in order to build the segmented regions of the whole image.
 ### Edge Detection
